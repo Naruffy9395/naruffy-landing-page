@@ -8,12 +8,21 @@ const projects = [
     title: "Project One",
     tag: "Landing page & automation",
     gradient: "from-emerald-900 via-bg-card to-bg-card",
+    image: images.projects.webdev,
   },
   {
     title: "Project Two",
     tag: "WhatsApp AI chatbot",
     gradient: "from-teal-900 via-bg-card to-bg-card",
+    image: images.projects.whatsapp,
   },
+  {
+    title: "Project Three",
+    tag: "Telegram automation suite",
+    gradient: "from-green-900 via-bg-card to-bg-card",
+    image: images.projects.telegram,
+  },
+];
   {
     title: "Project Three",
     tag: "Telegram automation suite",

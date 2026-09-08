@@ -6,7 +6,7 @@ const images = {
     telegram: "/images/project-telegram.png",
     shopify: "/images/project-shopify.png",
     branding: "/images/project-branding.png",
-    growth: "/images/project-growth.png",
+    growth: "https://github.com/Naruffy9395/naruffy-landing-page/blob/f7e239eb696823d345a4b5464bd5c22b6f86ba7d/Dynamic%20Dashboard%20with%20Luminous%20Green%20Analytics_20260908_121144_0000.png",
   },
 };
 

@@ -23,13 +23,6 @@ const projects = [
     image: images.projects.telegram,
   },
 ];
-  {
-    title: "Project Three",
-    tag: "Telegram automation suite",
-    gradient: "from-green-900 via-bg-card to-bg-card",
-  },
-];
-
 export default function Work() {
   return (
     <section id="work" className="relative px-6 py-32">

@@ -60,6 +60,7 @@ export default function Work() {
               <div
                 className={`relative mb-4 aspect-[4/3] overflow-hidden rounded-2xl border border-border bg-gradient-to-br ${project.gradient} transition-all duration-500 group-hover:border-accent/40`}
               >
+               <img src={project.image} alt={project.title} className="absolute inset-0 h-full w-full object-cover" />
                 <div className="absolute inset-0 grain opacity-50" />
                 <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
                   <motion.div

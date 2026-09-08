@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import images from "@/app/images-config";
 
 const projects = [
   {

@@ -23,6 +23,7 @@ const projects = [
     image: images.projects.telegram,
   },
 ];
+
 export default function Work() {
   return (
     <section id="work" className="relative px-6 py-32">
@@ -58,15 +59,19 @@ export default function Work() {
               className="group cursor-pointer"
             >
               <div
-                className={`relative mb-4 aspect-[4/3] overflow-hidden rounded-2xl border border-border bg-gradient-to-br ${project.gradient} transition-all duration-500 group-hover:border-accent/40`}
+                className={`relative mb-4 aspect-[4/3] overflow-hidden rounded-2xl border border-border bg-gradient-to-br ${project.gradient}`}
               >
-               <img src={project.image} alt={project.title} className="absolute inset-0 h-full w-full object-cover" />
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="absolute inset-0 h-full w-full object-cover"
+                />
                 <div className="absolute inset-0 grain opacity-50" />
                 <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
                   <motion.div
                     initial={{ opacity: 0 }}
                     whileHover={{ opacity: 1 }}
-                    className="rounded-full bg-white/10 px-4 py-2 text-sm text-white opacity-0 backdrop-blur-sm transition-opacity duration-300 group-hover:opacity-100"
+                    className="rounded-full bg-white/10 px-4 py-2 text-sm text-white opacity-0 backdrop-blur-sm transition"
                   >
                     View case study →
                   </motion.div>
